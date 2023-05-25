@@ -104,7 +104,7 @@ body.active {
 
 .right-column.active {
     background-color: #535353;
-    color: #3a2f3a;
+    color: #ad76ad;
     border: 1px solid #3d363d;
 
 }
@@ -259,5 +259,9 @@ h4 {
         width: 100%;
     }
 
+    #toggle.active .indicator {
+        transform: translateX(-24px);
+
+    }
     
 }
