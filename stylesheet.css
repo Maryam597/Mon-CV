@@ -234,6 +234,9 @@ h4 {
   }
   
 
+  
+  
+  
 
 @media screen and (max-width: 950px) {
 
@@ -267,5 +270,7 @@ h4 {
         transform: translateX(-24px);
 
     }
+
+
     
 }
