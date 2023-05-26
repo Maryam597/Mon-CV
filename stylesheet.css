@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -18,8 +17,6 @@ body {
     transition: 0.5s;
     background-color: #f0ecfc;
     background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
-
-
 }
 
 body.active {
@@ -45,7 +42,6 @@ body.active {
     box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
         inset 0 2px 8px rgba(0, 0, 0, 0.1),
         inset 0 -4px 4px rgba(0, 0, 0, 0.05);
-
 }
 
 #toggle .indicator {
@@ -71,7 +67,6 @@ body.active {
         inset 0 4px 4px rgba(255, 255, 255, 1),
         inset 0 -4px 4px rgba(255, 255, 255, 1);
     transition: 0.5s;
-
 }
 
 .nomboutton {
@@ -89,7 +84,6 @@ body.active {
     box-shadow: -1px 2px 12px 1px rgba(0, 0, 0, 0.77);
     -webkit-box-shadow: -1px 2px 12px 1px rgba(0, 0, 0, 0.77);
     -moz-box-shadow: -1px 2px 12px 1px rgba(0, 0, 0, 0.77);
-
 }
 
 
@@ -100,13 +94,13 @@ body.active {
     background-color: #EBD8EC;
     order: 2;
     border: 1px solid #605261;
+    color: #4c404d ;
 }
 
 .right-column.active {
     background-color: #535353;
     color: #ad76ad;
     border: 1px solid #3d363d;
-
 }
 
 .presentation.active {
@@ -126,15 +120,12 @@ body.active {
     padding: 20px;
     border: 1px solid #605261;
     color: #2b2a2a;
-
-
 }
 
 .left-column.active {
     background-color: #2b2a2a;
     color: #836a83;
     border: 1px solid #3d363d;
-
 }
 
 
@@ -146,12 +137,12 @@ body.active {
     padding: 20px 0px;
     font-style: italic;
     border: 0.5px solid #605261;
+    color: #4c404d ;
 }
 
 .description p {
     font-size: larger;
     line-height: 25px;
-
 }
 
 
@@ -169,14 +160,11 @@ h1 {
 }
 
 h1 {
-
     font-weight: bold;
     text-align: center;
 }
 
-li,
-h2,
-h4 {
+li, h2, h4 {
     font-size: large;
     line-height: 40px;
 }
@@ -184,7 +172,6 @@ h4 {
 p {
     font-size: medium;
     line-height: 15px;
-
 }
 
 h2 {
@@ -192,14 +179,12 @@ h2 {
 }
 
 h4 {
-
     font-weight: bold;
     font-size: 22px;
 }
 
 
 .image {
-
     width: 150px;
     height: 150px;
     border: none;
@@ -266,6 +251,22 @@ h4 {
     #toggle.active .indicator {
         transform: translateX(-24px);
 
+    }
+
+    .exp h1 {
+    border: 3px outset #8a618c; padding: 5px; margin-right: 10px;
+    }
+    
+    .formation h1 {
+        border: 3px outset #8a618c; padding: 5px; margin-right: 10px;
+        }
+
+    .contenuexp {
+
+        border-radius: 36px 36px 36px 36px;
+-webkit-border-radius: 36px 36px 36px 36px;
+-moz-border-radius: 36px 36px 36px 36px;
+border: 5px outset #a37aa5; margin-right: 10px;  padding: 10px;
     }
     
 }
