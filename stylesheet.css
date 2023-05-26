@@ -211,10 +211,7 @@ h4 {
 
 .formation {
     margin-left: 10px;
-    border-radius: 36px 36px 36px 36px;
-    -webkit-border-radius: 36px 36px 36px 36px;
-    -moz-border-radius: 36px 36px 36px 36px;
-    border: 5px outset #a37aa5; margin: 15px; padding: 15px;
+
         
 }
 
@@ -224,6 +221,14 @@ h4 {
   background-image: linear-gradient(to right, transparent, #440757, transparent);
   }
   
+
+  .contenuform {
+
+    border-radius: 36px 36px 36px 36px;
+-webkit-border-radius: 36px 36px 36px 36px;
+-moz-border-radius: 36px 36px 36px 36px;
+border: 5px outset #a37aa5; margin: 15px; padding: 15px;
+}
 
 
 @media screen and (max-width: 950px) {
@@ -275,13 +280,7 @@ h4 {
 border: 5px outset #a37aa5; margin: 15px; padding: 15px;
     }
 
-    .contenuform {
 
-        border-radius: 36px 36px 36px 36px;
--webkit-border-radius: 36px 36px 36px 36px;
--moz-border-radius: 36px 36px 36px 36px;
-border: 5px outset #a37aa5; margin: 15px; padding: 15px;
-    }
 
     
 }
