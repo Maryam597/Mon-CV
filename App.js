@@ -12,5 +12,3 @@ darkmode.onclick = function(){
    intro.classList.toggle('active')
 }
 
-
- 
