@@ -124,6 +124,12 @@ body.active {
     color: #2b2a2a;
 }
 
+.left-column h2 {
+    font-family: Lucida Handwriting;
+
+
+}
+
 .left-column.active {
     background-color: #2b2a2a;
     color: #836a83;
